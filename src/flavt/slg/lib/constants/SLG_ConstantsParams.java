@@ -1,4 +1,4 @@
-package flavt.slg.constants;
+package flavt.slg.lib.constants;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
