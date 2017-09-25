@@ -18,7 +18,7 @@ public class SLG_Parameter {
     public String GetFullName() { return m_strFullParameterName;}
     public void SetFullName( String strFullName) { m_strFullParameterName = strFullName;}
     
-    private boolean m_bCanBeAddedToList;
-    public boolean GetCanBeAddedToList() { return m_bCanBeAddedToList;}
-    public void SetCanBeAddedToList( boolean bCanBeAdded) { m_bCanBeAddedToList = bCanBeAdded;}
+    private boolean m_bCanBeAddedToOutputList;
+    public boolean GetCanBeAddedToOutputList() { return m_bCanBeAddedToOutputList;}
+    public void SetCanBeAddedToOutputList( boolean bCanBeAdded) { m_bCanBeAddedToOutputList = bCanBeAdded;}
 }
