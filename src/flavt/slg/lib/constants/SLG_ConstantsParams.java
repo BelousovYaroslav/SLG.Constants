@@ -74,7 +74,8 @@ public class SLG_ConstantsParams {
     public static final int SLG_PARAM_TCALIB_T2_TD1            = 0x31;    //049 показания датчика TD1 на верхней температурной точке
     public static final int SLG_PARAM_TCALIB_T2_TD2            = 0x32;    //050 показания датчика TD2 на верхней температурной точке
     public static final int SLG_PARAM_TCALIB_T2_TD3            = 0x33;    //051 показания датчика TD3 на верхней температурной точке
-    
+    public static final int SLG_PARAM_TD_CALIB_USAGE           = 0x3E;    //062 использование калибровки термодатчиков
+            
     //СМ ВЫШЕ public static final int SLG_PARAM_HV_APPLY_PACKS = 0x34;    //052 количество пачек HV-импульсов поджига
     
     public static final int SLG_PARAM_AMPL_HOLD_MEAN           = 0x35;    //053  алгоритм стабилизации амплитуды: среднее
@@ -86,6 +87,10 @@ public class SLG_ConstantsParams {
     public static final int SLG_PARAM_PH_SH_CALIB_T            = 0x39;    //057  калибровка фазового сдвига. температура
     public static final int SLG_PARAM_PH_SH_CALIB_PH_SH        = 0x3A;    //058  калибровка фазового сдвига. фазовый сдвиг
     public static final int SLG_PARAM_PH_SH_CURRENT_VAL        = 0x3B;    //059  Текущее значение фазового сдвига
+    public static final int SLG_PARAM_PH_SH_USAGE              = 0x3D;    //061  Фазовый сдвиг. Использование (0х00 = используется, REST = не используется)
     
     public static final int SLG_PARAM_ADD_PARAM_LIST_ELEMENT   = 0x3C;    //060  элемент списка доп. параметров
+    
+    //СМ ВЫШЕ public static final int SLG_PARAM_PH_SH_USAGE    = 0x3D;    //061 Фазовый сдвиг. Использование (0х00 = используется, REST = не используется)
+    //СМ ВЫШЕ public static final int SLG_PARAM_TD_CALIB_USAGE = 0x3E;    //062 использование калибровки термодатчиков
 }
