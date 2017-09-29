@@ -30,8 +30,8 @@ public class SLG_ConstantsCmd {
     public static final int SLG_CMD_ACT_LOCK_DEVICE            = 0x2C;    //44 = 0x2C = ","
     public static final int SLG_CMD_ACT_UNLOCK_DEVICE          = 0x2D;    //45 = 0x2D = "-"
     
-    public static final int MC_COMMAND_SWITCH_TO_MAX_RATE_DNDU = 0x2E;    //46 = 0x2E = "."
+    public static final int SLG_MC_COMMAND_SWITCH_TO_MAX_RATE_DNDU = 0x2E;    //46 = 0x2E = "."
 
-    public static final int MC_COMMAND_ACT_RESET_PHSH_CALIB    = 0x2F;    //47 = 0x2F = "/"
-    public static final int MC_COMMAND_ACT_RESET_DC_CALIB      = 0x30;    //48 = 0x30 = "0"
+    public static final int SLG_MC_COMMAND_ACT_RESET_PHSH_CALIB    = 0x2F;    //47 = 0x2F = "/"
+    public static final int SLG_MC_COMMAND_ACT_RESET_DC_CALIB      = 0x30;    //48 = 0x30 = "0"
 }
