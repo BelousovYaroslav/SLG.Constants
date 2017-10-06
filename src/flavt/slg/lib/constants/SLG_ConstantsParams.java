@@ -93,4 +93,19 @@ public class SLG_ConstantsParams {
     
     //СМ ВЫШЕ public static final int SLG_PARAM_PH_SH_USAGE    = 0x3D;    //061 Фазовый сдвиг. Использование (0х00 = используется, REST = не используется)
     //СМ ВЫШЕ public static final int SLG_PARAM_TD_CALIB_USAGE = 0x3E;    //062 использование калибровки термодатчиков
+    
+    public static final int SLG_PARAM_DC_CALIB_T               = 0x3F;    //063  Калибровка коэффициента вычета. Точка N. Температура
+    public static final int SLG_PARAM_DC_CALIB_DC_L            = 0x40;    //064  Калибровка коэффициента вычета. Точка N. Соотв. Квычета. мл. байт
+    public static final int SLG_PARAM_DC_CALIB_DC_H            = 0x41;    //065  Калибровка коэффициента вычета. Точка N. Соотв. Квычета. ст. байт
+    public static final int SLG_PARAM_DC_CALIB_USAGE           = 0x42;    //066  Калибровка коэффициента вычета. Флаг использования.
+    
+    public static final int SLG_PARAM_RAW_ADC0                 = 0x43;    //067  Внутренний АЦП.0 (код) (0-4095)
+    public static final int SLG_PARAM_RAW_ADC1                 = 0x44;    //068  Внутренний АЦП.1 (код) (0-4095)
+    public static final int SLG_PARAM_RAW_ADC2                 = 0x45;    //069  Внутренний АЦП.2 (код) (0-4095)
+    public static final int SLG_PARAM_RAW_ADC3                 = 0x46;    //070  Внутренний АЦП.3 (код) (0-4095)
+    public static final int SLG_PARAM_RAW_ADC4                 = 0x47;    //071  Внутренний АЦП.4 (код) (0-4095)
+    public static final int SLG_PARAM_RAW_ADC5                 = 0x48;    //072  Внутренний АЦП.5 (код) (0-4095)
+    public static final int SLG_PARAM_RAW_ADC6                 = 0x49;    //073  Внутренний АЦП.6 (код) (0-4095)
+    
+    public static final int SLG_PARAM_START_RULA               = 0x4A;    //074  Стартовое RULA
 }
