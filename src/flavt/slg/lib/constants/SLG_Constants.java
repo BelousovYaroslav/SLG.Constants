@@ -17,4 +17,7 @@ public class SLG_Constants {
     
     public static final int SLG_CMD_DEV_TYPE_M3B1 = 0x80;
     public static final int SLG_CMD_DEV_TYPE_M3B2 = 0x81;
+    
+    public static final int SLG_REGIME_SYNC = 0x01;
+    public static final int SLG_REGIME_ASYNC = 0x02;
 }
