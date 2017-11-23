@@ -22,4 +22,8 @@ public class SLG_Constants {
     public static final int SLG_REGIME_SYNC         = 0x01;
     public static final int SLG_REGIME_ASYNC        = 0x02;
     public static final int SLG_REGIME_UNKNOWN      = 0x03;
+    
+    public static final int SLG_MAIN_PARAM_OUTPUT_DPHI    = 0x01;
+    public static final int SLG_MAIN_PARAM_OUTPUT_DNDU    = 0x02;
+    public static final int SLG_MAIN_PARAM_OUTPUT_UNKNOWN = 0x03;
 }
