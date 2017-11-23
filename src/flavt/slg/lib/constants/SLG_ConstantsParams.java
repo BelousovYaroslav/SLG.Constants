@@ -97,7 +97,7 @@ public class SLG_ConstantsParams {
     public static final int SLG_PARAM_DC_CALIB_T               = 0x3F;    //063  Калибровка коэффициента вычета. Точка N. Температура
     public static final int SLG_PARAM_DC_CALIB_DC_L            = 0x40;    //064  Калибровка коэффициента вычета. Точка N. Соотв. Квычета. мл. байт
     public static final int SLG_PARAM_DC_CALIB_DC_H            = 0x41;    //065  Калибровка коэффициента вычета. Точка N. Соотв. Квычета. ст. байт
-    public static final int SLG_PARAM_DC_CALIB_USAGE           = 0x42;    //066  Калибровка коэффициента вычета. Флаг использования.
+    public static final int SLG_PARAM_DC_START_DEF             = 0x42;    //066  Настройки использования коэффициента вычета. Что брать при старте: (0x00=DC_START REST=таблица калибровки)
     
     public static final int SLG_PARAM_RAW_ADC0                 = 0x43;    //067  Внутренний АЦП.0 (код) (0-4095)
     public static final int SLG_PARAM_RAW_ADC1                 = 0x44;    //068  Внутренний АЦП.1 (код) (0-4095)
@@ -108,4 +108,12 @@ public class SLG_ConstantsParams {
     public static final int SLG_PARAM_RAW_ADC6                 = 0x49;    //073  Внутренний АЦП.6 (код) (0-4095)
     
     public static final int SLG_PARAM_START_RULA               = 0x4A;    //074  Стартовое RULA
+    
+    public static final int SLG_PARAM_DC_START                 = 0x4B;    //075  Стартовый коэффициент вычета
+    public static final int SLG_PARAM_DC_RECALC                = 0x4C;    //076  Флаг как переопределять коэффициент вычета в процессе работы
+                                                                          //        0=перевычислять (как раньше)
+                                                                          //        1=калибровка ступенчатая
+                                                                          //        2=калибровка сглаженная
+                                                                          //        3=ручной режим
+    public static final int SLG_PARAM_DC_RECALC_PERIOD         = 0x4D;    //077  Период переопределения Квычета (в секундах)
 }
